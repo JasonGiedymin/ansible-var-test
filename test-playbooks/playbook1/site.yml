@@ -1,0 +1,6 @@
+---
+- hosts: all
+  vars:
+    message: "default"
+  tasks:
+    - debug: msg={{message}}
